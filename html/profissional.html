@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/profissional.css"/>
+</head>
+<body>
+    <form class="formulario">
+        <fieldset>
+            <legend>Esse é o Meu Formulário</legend>
+           <div> <input type="text" name="nome" placeholder="Digite o Seu Nome.."></div>
+            <div><input type="email" name="email" id="" placeholder="DIgite o Seu Email..."></div>
+            <div>
+                <select name="lista">
+                    <option disabled selected>Qual a sua Idade?</option>
+                    <option value="10+">10+</option>
+                    <option value="20+">20+</option>
+                    <option value="30+">30+</option>
+                    <option value="40+">40+</option>
+                </select>
+            </div>
+            <h2>Qual é a Sua Cidade</h2>
+            <div class="radio-input">
+            <div>
+                <input type="radio" name="cidade" value="São Paulo"/><span> São Paulo</span>
+            </div>
+            <div>
+                <input type="radio" name="cidade" value="Guarulhos"><span> Guarulhos</span>
+            </div>
+                <div>
+                <input type="radio" name="cidade" value="" id="barreto"><span> barreto</span>
+            </div>
+        </div>
+        <h2>O Que Você Gosta de Comer?</h2>
+            <div class="radio-input">
+            <div>
+                <input type="checkbox" name="comida[]" value="Frutas"/><span> Frutas</span>
+            </div>
+            <div>
+                <input type="checkbox" name="comida[]" value="Fast Foot"><span> Fast Foot</span>
+            </div>
+                <div>
+                <input type="checkbox" name="comida[]" value="Legumes" ><span> Legumes</span>
+            </div>
+        </div>
+        <div>
+            <textarea placeholder="Você Possuir Alguma Observação.." name="observacao"></textarea>
+        </div>
+        <div>
+            <input type="submit" name="acao" value="Enviar">
+        </div>
+        </fieldset>
+    </form><!--formulario-->
+
+
+    <form>
+        <input type="file" name="file" id="file">
+        <label for="file">Clique aqui!</label>
+    </form> 
+
+    <div>
+        <form class="formatar">
+            <select class="bom">
+                <option disabled selected value="">seu numero</option>
+                <option value="">1</option>
+                <option value="">2</option>
+            </select>
+        </form>
+    </div>
+    
+    <div class="display">
+        <form class="ga">
+            <div>
+            <input type="checkbox" name="check1" id="check1">
+            <label for="check1"></label>
+        </div>
+            <input type="checkbox" name="check-box" id="check2">
+            <label for="check2"></label>
+        </form>
+    </div>
+</body>
+</html>
