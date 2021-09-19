@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu  a{
+    text-decoration: none;
+    border-right: 2px solid chartreuse;
+    
+    padding: 20px;
+    
+}
+.menu a:hover{
+    background-color: chartreuse;
+    padding: 10px;
+    font-size: 22px;
+}
+.center img:hover{
+    margin: 4px;
+    cursor: pointer;
+    color: rgb(145, 122, 89);
+
+}
+section.one{
+   background-color: cadetblue;
+    height: 500px;
+}
+.biografia img{
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.biografia h2 p{
+    padding: 10px;
+}
+
+
+.vid video{
+    border-radius: 10px;
+    border: 2px solid blue;
+    
+}
+.lado-esquerdo h6{
+    text-align: left;
+    font-size: 30px;
+    padding: 25px;
+    color: blanchedalmond;
+}
+aside.lado{
+    float: right;
+    width: 25%;
+    height: 1200px;
+    text-decoration: none;
+     background-color: rgb(26, 25, 25);
+}
+.capa img:hover{
+margin: 3px;
+cursor: pointer;
+
+
+}
+.capa{background-color: rgb(46, 45, 45); color: white;height: 140px;}
+.capa img{
+    float: left;
+    padding: 10px;  
+}
+article .left .capa h5 p{
+    padding: 10px;
+}
+article.right{
+    margin: 20px;
+}
+
+footer{
+    height:200px;
+   background-color: brown; 
+   
+}
+footer p{
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.box{
+    margin: auto 40px;
+    padding: 30px;
+}
+.text ,.text1,.text2{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    border: 3px solid black;
+    display: inline-block;
+} 
+.text1:hover,.text:active,.text2:hover
+{
+    background-color: blueviolet;
+    content: 'cu de matar';
+    padding: 20px;
+}
+.text1:hover,.text,.text2{
+    vertical-align: top;
+}
+input[type=text]:focus{
+    background-color: cornflowerblue;
+    text-align: center;
+    
+}
+.ca{
+    background-color: chartreuse;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.green :last-of-type {
+    background-color: coral;
+}
+.pa{
+    width: 33.3%;
+    float: left;
+    background-color: cyan;
+    margin: 0 40px;
+    height: 400px;
+    padding: 30px;
+}
+.b2,.b3{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    display: inline-block;
+}
+p:empty{
+    width: 200px;
+    background-color: gray;
+    height: 100px;
+}
+.pa .b2:last-child p {
+    color: rgb(197, 133, 146);
+}
+.c p::after{
+    content: "gabriel";
+    background-color: green;
+}
+.c p::before{
+    content: 'qual é o seu nome ';
+    background-color: greenyellow;
+}
+a:visited{
+    color: green;
+    
+}
+
+ul li{
+    
+    padding: 10px;
+}
+ul li:nth-of-type(2){
+    color: blue;
+}
+.pa div:not(.b3){
+    background-color: gold;
+}
+.bb{
+    margin-top: 500px;
+    padding: 90px 0 ;
+    width: 100%;
+    text-align: center;
+    background-color: blue;
+}
+.f{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    display: inline-block;
+    margin: 20px 0;
+    
+}
+/*
+.bb div:nth-of-type(2n+1) > div.f{
+    background-color: chartreuse;
+}*/
+.bb p:first-child {
+    background-color: chocolate ;
+}
+.bb p:last-of-type {
+    color: chocolate;
+}

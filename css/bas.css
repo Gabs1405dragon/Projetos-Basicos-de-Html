@@ -1,0 +1,132 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+input[type=text],input[type=email],input[type=submit]{
+width: 50%;
+border-radius: 5px;
+height: 40px;
+margin: 10px;
+border: 2px solid black;
+padding: 10px;
+
+}
+textarea{
+    width: 50%;
+    height: 300px;
+    resize: vertical ;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.form{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.form h1 {
+    font-family: sans-serif;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.form h1:hover{
+    border-radius: 10px;
+    
+    font-size: 40px;
+    cursor: pointer;
+}
+section.contato{
+    background-color: rgb(38, 144, 194);
+}
+section.tabela{
+    background-color: pink;
+    height: 500px;
+}
+section.right{
+    display: flex;
+    flex-direction: row;
+}
+aside{
+    background-color: plum;
+    height: 500px;
+    width: 15%;
+    color: purple;
+    float: right;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+main{
+    width: 85%;
+    flex: 1;
+    height: 50vw;
+    background-color: powderblue;
+}
+header.cabeça{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.menu {
+    margin-top: 40px;
+    
+}
+.menu a{
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(38, 144, 194);
+}
+.logo{padding: 10px;}
+.logo  h2{
+    font-size: 45px;
+    font-family: sans-serif;
+    
+    
+}
+footer{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+    main .w ,.w1,.w2{
+        float: left;
+        padding: 5px;
+        margin-right: 10px;
+    }
+    .w1{
+        display: inline-block;
+    }
+    main > p{
+        padding: 0 20px  ;
+        margin-top: 10px;
+    }
+    aside > img{
+        width: 30%;
+        float: left;
+        padding: 10px;
+        
+    }
+@media screen and (max-width:1024px){
+    .logo h2, .menu a, img{
+     width: 100%;
+     text-align: center;
+    
+    }  
+    aside{
+        overflow: scroll;
+    } 
+    
+   
+}
+@media screen and (max-width:768px){
+    img{
+        width: 75%;
+    }
+    aside{
+        overflow: scroll;
+    }
+   
+}

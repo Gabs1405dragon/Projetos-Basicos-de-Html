@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+}
+.tema{
+    width: 320px;
+    height: auto;
+    float: left;
+    margin: 20px 10px;
+    text-align: center;
+    background-color: rgb(39, 127, 199);
+    border-radius: 14px 40px;
+    margin: 20px;
+}
+.tema h2{
+    font-size: larger;
+    padding: 30px;
+    text-transform: capitalize;
+    
+}
+.tema p{
+    color: #b4b4b4;
+    line-height: 40px;
+    letter-spacing: 6px;
+}
+.tema2 {
+    text-align: center;
+    width: 320px;
+    height: auto;
+    padding: 15px;
+    float: right;
+    background-color: royalblue;
+    border-radius: 10px 40px;
+    margin: 20px;
+}
+.tema2 h2{
+    color: rgb(124, 29, 29);
+    padding: 10px;
+}
+.lista{
+    list-style-type: armenian;
+    list-style-position: inside;
+    line-height: 40px;
+    float: left;
+    padding: 0 30px ;
+}
+.lista2{
+    line-height: 40px;
+    list-style-type:georgian ;
+    padding: 0 20px 0 10px;
+    float: left;
+}
+.lista3{
+    line-height: 40px;
+    list-style-type: lower-greek;
+    padding:0 20px;
+    float: left;
+}
+.lista4{
+    list-style-type: lower-roman;
+    line-height: 40px;
+    float: left;
+    padding: 0 20px;
+}
+.lista5{
+    list-style-type: lower-latin;
+    line-height: 40px;
+    padding: 0 20px;
+    float: left;
+}
+.lista6{
+    list-style-type: lower-alpha;
+    line-height: 40px;
+}
+.coletivo-de-listas{
+    padding: 20px;
+}
+.last{
+    margin-right: 0;
+    margin-left: 0;
+}
+.games{
+    
+    border: 1px dotted chartreuse;
+    margin-right: -4px;
+    
+    height: auto;
+    border-radius: 5px 50px;
+    margin-bottom: 120px;
+}
+    .games img{
+        float: left;
+        margin-right: 20px;
+        border-radius:10px ;
+        
+    }
+    .games img:hover{
+        padding: 10px;
+        cursor: pointer;
+       
+        border-radius: 10px;
+    }
+    .games h2:hover{
+       
+        font-size: 35px;
+        cursor: pointer;
+
+    }
+    .sobre-anime{background-color: burlywood; margin: 40px 29px 50px 20px;}
+    .animes h2 {
+     text-align: center;
+        padding: 20px;  
+    }
+.cabeca {
+   
+    display: flex;
+    margin-right: -4px;
+    justify-content:space-between ;
+    padding: 20px;
+}
+.menu a{
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.ppp p{
+    display: inline-block;
+    margin-right: -4px;
+}
+    ul li{
+    list-style-type: decimal-leading-zero;
+    }
+    ul li:nth-of-type(2){
+        list-style-type: lower-latin;
+        line-height: 100px;
+        color: green;
+    }
+    box-box > .caixa{
+        border: 1px solid black;
+        width: 300px;
+        height: 300px;
+        background-color: brown;
+    }
+    box-box .caixa:last-of-type{
+        background-color: chartreuse;
+    }
